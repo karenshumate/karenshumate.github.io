@@ -93,6 +93,7 @@
     height: 30%;
     background-color: black;
     border-radius: 5px;
+    left: 20px;
   }
 
   .code-img, 
@@ -105,10 +106,15 @@
     width: 40%;
     height: 50%;
     border-radius: 5px;
-    margin-left: 120px;
+    margin-left: 106px;
     padding-bottom: 20px;
     padding-top: 20px;
 
+  }
+
+  .tree {
+    left: 45px;
+    padding-left: 135px;
   }
 
   .smedia {
@@ -116,9 +122,23 @@
     
   }
 
-.smedia > li > a {
-  
+  .prodjects {
+    margin-left: 150px;
+    
+  }
 
+.project-sunrise {
+  width: 10%;
+  height: 20%;
+  border-radius: 5px;
+  position: absolute;
+  right: 621px;
+  
+}
+
+h5 {
+  margin-right: 130px;
+  padding-right: 20px;
 }
 
 .bio {
