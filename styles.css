@@ -1,3 +1,4 @@
+* { box-sizing: border-box; }
 
 .banner{
     width: 100%;
@@ -74,7 +75,7 @@
 
   .protfolio {
     text-align: center;
-
+    padding-top: 10px;
   }
 
   .my-picture-img {
@@ -84,34 +85,60 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
   }
 
-  .wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-	margin: 20px auto;
-}
-header {
-	padding: 0 15px;
+  .code-img {
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    border-radius: 5px;
+  }
+
+  .code-img, 
+    .code  {
+    margin-left: 120px;
+    padding-bottom: 20px;
+  }
+
+  .code-2 {
+    width: 40%;
+    height: 50%;
+    border-radius: 5px;
+    margin-left: 120px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+  }
+
+  .smedia {
+    margin-left: 120px;
+    
+  }
+
+.smedia > li > a {
+  
+
 }
 
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	margin: 5px 0;
+.bio {
+  margin-left: 120px;
 }
 
-.column  {
-	flex: 1;
-	border: 1px solid gray;
-	margin: 2px;
-	padding: 10px;
-	div:nth-child(3n+1) {margin-left: 0;};
-	:nth-last-child(3) { margin-right: 0; };
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    
 }
 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 footer {
 	padding: 0 15px;
@@ -119,21 +146,17 @@ footer {
 
 
 @media screen and (max-width: 980px) {
-  .columns .column {
+   .column {
 		margin-bottom: 5px;
     flex-basis: 40%;
-		&:nth-last-child(2) {
-			margin-right: 0;
-		}
-		&:last-child {
-			flex-basis: 100%;
-			margin: 0;
-		}
-	}
-}
+		margin-right: 0;
+    }
+    
+			}
+
 
 @media screen and (max-width: 680px) {
-	.columns .column {
+	 .column {
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
 	}
