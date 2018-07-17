@@ -1,5 +1,10 @@
 * { box-sizing: border-box; }
 
+#wrapper {                   /*makes content to be centered */
+  width: 1342px;
+  margin: 0 auto;
+}
+
 .banner{
     width: 100%;
     display: block;
@@ -98,7 +103,7 @@
 
   .code-img, 
     .code  {
-    margin-left: 120px;
+    margin-left: 70px;
     padding-bottom: 20px;
   }
 
@@ -106,37 +111,33 @@
     width: 40%;
     height: 50%;
     border-radius: 5px;
-    margin-left: 120px;
+    margin-left: 70px;
     padding-bottom: 20px;
     padding-top: 20px;
 
   }
 
   .tree {
-    left: 45px;
-    padding-left: 135px;
+   padding-left:  73px;
+  
   }
 
   .smedia {
-    margin-left: 120px;
-    
+    margin-right: 90px;
+    padding-left: 20px;
   }
 
-  .prodjects {
-    margin-left: 150px;
-    
+  li, a {
+    margin-left: 20px;
   }
 
-  .info {
-    
-  }
-
+ 
 .project-sunrise {
   width: 10%;
   height: 20%;
   border-radius: 5px;
   position: absolute;
-  right: 600px;
+  right: 219px;
   padding-bottom: 15px;
 }
 
@@ -146,7 +147,8 @@
 }
 
 .bio {
-  margin-left: 120px;
+  margin-left: 100px;
+  padding-right: 60px;
 }
 
   .column {
