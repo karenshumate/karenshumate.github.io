@@ -60,10 +60,55 @@
     color: #ffffff;
   }
 
-  .nav > li > a:hover {
+  .nav > li > a:hover, .dropdown:hover .dropbtn {
       color: cyan;
   }
   
+  .dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 60px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: -14px 0 -10px 0;
+    
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin-right: 19px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
   .name {
     color: #ffffff;
     float: left; 
@@ -109,7 +154,7 @@
 
   .code-2 {
     width: 40%;
-    height: 50%;
+    height: 70%;
     border-radius: 5px;
     margin-left: 70px;
     padding-bottom: 20px;
@@ -132,9 +177,10 @@
   }
 
  
+   
 .project-sunrise {
   width: 10%;
-  height: 20%;
+  height: 22%;
   border-radius: 5px;
   position: absolute;
   right: 219px;
