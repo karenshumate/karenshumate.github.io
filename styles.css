@@ -236,21 +236,28 @@ footer {
     
 			}
 
+      @media (max-width: 700px ) {
+        #wrapper {
+          display: block;
+         
+            }
+
+        .smedia {
+          right:20px;
+          }   
+        }     
 
       @media all and (min-width: 319px), 
       all and (max-width: 910px)  {
 	 .column {
-		
-		margin: 0 0 5px 0;
+   
+    margin: 0 0 5px 0;
   }
   
-  .nav {
+  #wrapper {
+    display: block;
     
-    padding: 10px 30px;
-    margin: -5px 0 -10px 0;
-    
-    
-  }
+      }
 
   .dropdown-content {
     
@@ -260,11 +267,6 @@ footer {
     
   }
 
-  .project-sunrise {
-    width: 10%;
-    height: 22%;
-    padding-bottom: 15px;
-  }
+  
 }
     
-  
