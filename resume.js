@@ -2,7 +2,7 @@ if (connection != null){
     MediaKeySystemAccess.out.println("Connection to database successful");
 }
 
-<a href="KarenShumateResumeHTML6-1-19.docx"></a>;
+<a href="..\..\..\Karen Shumate Resume HTML 6-1-19.docx"></a>;
 
 
 els;  {
