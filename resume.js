@@ -4,7 +4,8 @@ if (connection != null){
 
 <a href="KarenShumateResumeHTML6-1-19.docx"></a>;
 
-els (connection) {
+
+els;  {
     MediaKeySystemAccess.out.println("Unable to connect to database.");
 }
 
