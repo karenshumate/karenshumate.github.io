@@ -247,9 +247,10 @@ footer {
          
             }
 
-        .smedia {
+        .smedia  {
           right:20px;
-          }   
+          }  
+                            
         }     
 
       @media all and (min-width: 319px), 
@@ -271,7 +272,7 @@ footer {
     
     
   }
-
+  
   
 }
     
